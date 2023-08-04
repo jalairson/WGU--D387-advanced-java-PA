@@ -30,3 +30,15 @@ part C -
 * modified app.component.ts (lines 73, 74, 122, 123) and app.component.html (lines 84, 85) to include room prices in EUR and CAD currencies
 
 ==================================================================================================================================================================================================
+
+part C -
+3.   Display the time for an online live presentation held at the Landon Hotel by doing the following:
+a.   Write a Java method to convert times between eastern time (ET), mountain time (MT), and coordinated universal time (UTC) zones.
+b.   Use the time zone conversion method from part C3a to display a message stating the time in all three times zones in hours and minutes for an online, live 
+presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* created and populated Timezone.java (32 lines) and TimezoneController.java (14 lines) to send time conversions to angular front end
+* edited app.component.ts (lines 32, 36, 58 - 67) and app.component.html (lines 66 - 69) to display meeting message on angular front end with time conversions
+
+==================================================================================================================================================================================================
