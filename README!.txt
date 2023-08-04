@@ -15,6 +15,7 @@ Modify the Landon Hotel scheduling application for localization and internationa
 a.   Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
 b.   Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 * Created resource bundle 'langs' with 2 locales (1 lines each)
 * Created  and populated WelcomeMessage.java (28 lines) and WelcomeController (22 lines) to use resource bundle messages from langs
 * Edited D387SampleCodeApplication.java (lines 15 -27) to run welcome messages in separate threads
@@ -22,8 +23,10 @@ b.   Display the welcome message in both English and French by applying the reso
 
 ==================================================================================================================================================================================================
 
+part C -
 2.   Modify the front end to display the price for a reservation in currency rates for U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+* modified app.component.ts (lines 73, 74, 122, 123) and app.component.html (lines 84, 85) to include room prices in EUR and CAD currencies
 
 ==================================================================================================================================================================================================
