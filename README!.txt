@@ -1,10 +1,22 @@
 part A - 
+Create a private external GitLab repository named “_D387” and do the following:
+•   Push the code from the IDE to the repository.
+•   Add “WGU-Evaluation” as a member with reporter access to your repository on GitLab.
+•   Commit with a message and push when you complete each requirement listed in parts C1, C2, C3, D2, and D3.
+•   Submit a copy of the GitLab repository URL and a copy of the repository branch history created following the completion of all task requirements and retrieved from your repository, which must include the commit messages and dates.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 * Created gitlab repo for d387
 https://gitlab.com/wgu-gitlab-environment/student-repos/jlairs5/d387-advanced-java/-/tree/working_branch
 
 ==================================================================================================================================================================================================
 
 part B - 
+Create a README file that includes the following:
+1.   Include notes describing where in the code to find the changes you made for each requirement in parts C1, C2, C3, D2, and D3. Each note should include the label for the task requirement (e.g., C1, C2), file name, line number, and change.
+2.   Include the URL to the GitLab repository.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 * Created this README! file
 
 ==================================================================================================================================================================================================
@@ -40,5 +52,28 @@ presentation held at the Landon Hotel. The times should be displayed as ET, MT, 
 
 * created and populated Timezone.java (32 lines) and TimezoneController.java (14 lines) to send time conversions to angular front end
 * edited app.component.ts (lines 32, 36, 58 - 67) and app.component.html (lines 66 - 69) to display meeting message on angular front end with time conversions
+
+==================================================================================================================================================================================================
+
+part D -
+1.   Build the Dockerfile to create a single image that includes all code, including modifications made in parts C1 to C3. Commit and push the final Dockerfile to GitLab.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+==================================================================================================================================================================================================
+
+part D -
+2.   Test the Dockerfile by doing the following:
+•   Create a Docker image of the current multithreaded Spring application.
+•   Run the Docker image in a container and give the container a name that includes D387_[student ID].
+•   Submit a screenshot capture of the running application with evidence it is running in the container.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+==================================================================================================================================================================================================
+part D -
+3.   Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 ==================================================================================================================================================================================================
