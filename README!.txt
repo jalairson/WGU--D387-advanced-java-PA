@@ -50,8 +50,8 @@ b.   Use the time zone conversion method from part C3a to display a message stat
 presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-* created and populated Timezone.java (32 lines) and TimezoneController.java (14 lines) to send time conversions to angular front end
-* edited app.component.ts (lines 32, 36, 58 - 67) and app.component.html (lines 66 - 69) to display meeting message on angular front end with time conversions
+* Created and populated Timezone.java (32 lines) and TimezoneController.java (14 lines) to send time conversions to angular front end
+* Edited app.component.ts (lines 32, 36, 58 - 67) and app.component.html (lines 66 - 69) to display meeting message on angular front end with time conversions
 
 ==================================================================================================================================================================================================
 
@@ -59,6 +59,9 @@ part D -
 1.   Build the Dockerfile to create a single image that includes all code, including modifications made in parts C1 to C3. Commit and push the final Dockerfile to GitLab.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+* Created Dockerfile in project directory (5 lines)
+* Built docker image named 'd387' in cmd
+* Pushed Dockerfile to gitlab
 
 ==================================================================================================================================================================================================
 
@@ -68,12 +71,22 @@ part D -
 •   Run the Docker image in a container and give the container a name that includes D387_[student ID].
 •   Submit a screenshot capture of the running application with evidence it is running in the container.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+ 
+* Ran app in new Docker container named 'd387_009965674'
+* Screenshot of running app in Docker container
 
 ==================================================================================================================================================================================================
 part D -
 3.   Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+In order to migrate this app to the cloud, it is necessary to remove static port numbers from the project code and and instead include the utilities 'location' and 'locationStrategy' 
+to dynamically assign web addressing. I would use AWS for cloud hosting because their record for hosting uptime is better than their competitors over the long term, and lost site 
+availability is lost business.
+Upon signing up for AWS EC2 cloud service, I can begin a session, install Docker to that environment, and run my app's Docker container.
 
 ==================================================================================================================================================================================================
+part E -
+Export your project from the IDE as a compressed file.
+
+* Done!
